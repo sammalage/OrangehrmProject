@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[https://opensource-demo.orangehrmlive.com/index.php/dashboard]]>
+    </line>
+    <line>
+      <![CDATA[OrangeHRM]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard]]>
+    </line>
+    <line>
+      <![CDATA[rgba(242, 140, 56, 1)]]>
+    </line>
+    <line>
+      <![CDATA[rgba(242, 140, 56, 1)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-13T17:08:53 IST" name="Suite" finished-at="2022-07-13T17:10:01 IST" duration-ms="68102">
+    <groups>
+    </groups>
+    <test started-at="2022-07-13T17:08:53 IST" name="Test" finished-at="2022-07-13T17:10:01 IST" duration-ms="68102">
+      <class name="testjava.AdminPageTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testjava.AdminPageTest@7139992f]" started-at="2022-07-13T17:09:32 IST" name="browserLaunch" finished-at="2022-07-13T17:09:45 IST" duration-ms="12700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="pageObject()[pri:0, instance:testjava.AdminPageTest@7139992f]" started-at="2022-07-13T17:09:45 IST" name="pageObject" finished-at="2022-07-13T17:09:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObject -->
+        <test-method signature="adminlog()[pri:0, instance:testjava.AdminPageTest@7139992f]" started-at="2022-07-13T17:09:45 IST" name="adminlog" finished-at="2022-07-13T17:09:52 IST" duration-ms="7745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlog -->
+        <test-method signature="verifyAdminBtn()[pri:1, instance:testjava.AdminPageTest@7139992f]" started-at="2022-07-13T17:09:52 IST" name="verifyAdminBtn" finished-at="2022-07-13T17:09:55 IST" duration-ms="2831" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[rgba(242, 140, 56, 1)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAdminBtn -->
+        <test-method signature="verifySystemUser()[pri:2, instance:testjava.AdminPageTest@7139992f]" started-at="2022-07-13T17:09:55 IST" name="verifySystemUser" finished-at="2022-07-13T17:09:58 IST" duration-ms="2479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySystemUser -->
+        <test-method signature="verifyAlternateCheckbox()[pri:3, instance:testjava.AdminPageTest@7139992f]" started-at="2022-07-13T17:09:58 IST" name="verifyAlternateCheckbox" finished-at="2022-07-13T17:10:00 IST" duration-ms="2882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlternateCheckbox -->
+        <test-method signature="verifySecificCheckbox()[pri:4, instance:testjava.AdminPageTest@7139992f]" started-at="2022-07-13T17:10:00 IST" name="verifySecificCheckbox" finished-at="2022-07-13T17:10:01 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecificCheckbox -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:testjava.AdminPageTest@7139992f]" started-at="2022-07-13T17:10:01 IST" name="browserQuit" finished-at="2022-07-13T17:10:01 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- testjava.AdminPageTest -->
+      <class name="testjava.DashboardPageTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testjava.DashboardPageTest@47caedad]" started-at="2022-07-13T17:08:53 IST" name="browserLaunch" finished-at="2022-07-13T17:09:16 IST" duration-ms="23125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="pageObject()[pri:0, instance:testjava.DashboardPageTest@47caedad]" started-at="2022-07-13T17:09:16 IST" name="pageObject" finished-at="2022-07-13T17:09:17 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObject -->
+        <test-method signature="dashlog()[pri:0, instance:testjava.DashboardPageTest@47caedad]" started-at="2022-07-13T17:09:17 IST" name="dashlog" finished-at="2022-07-13T17:09:28 IST" duration-ms="11314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashlog -->
+        <test-method signature="verifyUrl()[pri:1, instance:testjava.DashboardPageTest@47caedad]" started-at="2022-07-13T17:09:28 IST" name="verifyUrl" finished-at="2022-07-13T17:09:28 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[https://opensource-demo.orangehrmlive.com/index.php/dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method signature="verifyTitle()[pri:2, instance:testjava.DashboardPageTest@47caedad]" started-at="2022-07-13T17:09:28 IST" name="verifyTitle" finished-at="2022-07-13T17:09:29 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OrangeHRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyDash()[pri:3, instance:testjava.DashboardPageTest@47caedad]" started-at="2022-07-13T17:09:29 IST" name="verifyDash" finished-at="2022-07-13T17:09:29 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDash -->
+        <test-method signature="verifyColor()[pri:4, instance:testjava.DashboardPageTest@47caedad]" started-at="2022-07-13T17:09:29 IST" name="verifyColor" finished-at="2022-07-13T17:09:29 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[rgba(242, 140, 56, 1)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyColor -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:testjava.DashboardPageTest@47caedad]" started-at="2022-07-13T17:09:29 IST" name="browserQuit" finished-at="2022-07-13T17:09:32 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- testjava.DashboardPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
